@@ -1,0 +1,41 @@
+@media (max-width: 480px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* body{
+    min-height: 100vh;
+    min-width: 100vw;
+    box-sizing: border-box;
+} */
+
+.main{
+    min-height: 100vh;
+    min-width: 100vw;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    flex: 1 1 auto;
+    background-color: black;
+    min-height: 100vh;
+}
+
+.right{
+    flex: 1 1 auto;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 0rem 3rem;
+}
+

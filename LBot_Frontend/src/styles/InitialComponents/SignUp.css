@@ -1,0 +1,63 @@
+.SignUp{
+    width: 70%;
+    font-size: 1.4rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-sizing: border-box;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+form>input{
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+.Continue{
+    align-self: center;
+
+    margin-top: 2rem;
+    margin-left: 30%;
+    padding: 1rem 6rem;
+    font-size: 1.5rem;
+
+    background-color: white;
+}
+
+.Continue:hover{
+    background-color: #424242;
+    color: white;
+    transition: 0.3s;
+}
+
+hr{
+    border: 0.1rem solid black;
+    width: 100%;
+}
+
+.or{
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.or>button{
+    padding: 0.8rem 4rem;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+.or>button:hover{
+    background-color: #424242;
+    color: white;
+    transition: 0.3s;
+}

@@ -1,0 +1,38 @@
+.Profile{
+    display: flex;
+    box-sizing: border-box;
+    height: 100vh;
+    /* width: 100vw; */
+}
+
+.sidebar{
+    background-color: cadetblue;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    background-color: darkslategrey;
+}
+
+.sidebar > a{
+    padding: 0.6rem;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar > a:hover{
+    border-bottom: 0.2rem solid white;
+    transition: 0.15s;
+}
+
+.sidebar > a:focus{
+    color: aquamarine;
+    border: 0.1rem solid aquamarine;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+}

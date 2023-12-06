@@ -1,0 +1,97 @@
+.chat{
+    display: flex;
+    background-color: cadetblue;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.prevChat{
+    width: 20%;
+
+    padding: 2rem;
+    background-color: cadetblue;
+    height: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.prevChat>p{
+    /* flex-grow: 1; */
+    text-align: center;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+.currChat{
+    width: 80%;
+    /* flex-grow: 1; */
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.chatHistory{
+    flex-grow: 1;
+    border-bottom: 0.1rem solid black;
+    padding: 0.2rem;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: scroll;
+}
+
+.singleChat{
+    border: 0.1rem solid gray;
+    margin: 0.2rem;
+}
+
+.question{
+    background-color: lightblue;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+}
+
+.answer{
+    padding: 1rem;
+    margin-top: 0.4rem;
+    font-size: 1.5rem;
+}
+
+.chatForm{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+}
+
+.chatForm>button, .chatForm>input{
+    margin: 0.8rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+.chatForm>input{
+    flex-grow: 1;
+    /* border-bottom: 0.1rem solid black; */
+}
+
+.chatForm>input:focus{
+    outline: 0.1rem solid grey;
+}
+
+.chatForm>button{
+    background-color: lightgreen;
+    color: white;
+}
+
+.chatForm>button:hover{
+    background-color: green;
+}
